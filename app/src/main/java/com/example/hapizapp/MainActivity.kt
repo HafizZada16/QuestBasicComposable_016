@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             HapizAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    TataLetakBoxColumnRow(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

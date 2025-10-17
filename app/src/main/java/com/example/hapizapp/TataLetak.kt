@@ -35,7 +35,7 @@ fun TataLetakRow(modifier: Modifier) {
 }
 
 @Composable
-fun TataLetakColumnRow(modifier: Modifier) {
+fun TataLetakBox(modifier: Modifier) {
     Box(
         modifier = modifier
             .fillMaxHeight()

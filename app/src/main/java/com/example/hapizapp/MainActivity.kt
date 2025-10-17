@@ -20,6 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             HapizAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    // Panggil composable layout utama dengan padding dari Scaffold
                     TataLetakBoxColumnRow(
                         modifier = Modifier.padding(innerPadding)
                     )
